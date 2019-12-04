@@ -28,9 +28,11 @@ curl -fsS https://dlang.org/install.sh | bash -s dmd
 ```
 
 ### Installation
+Please check dmd version (here `dmd-2.089.0`)
 ```sh
 git clone https://github.com/skilion/onedrive.git
 cd onedrive
+source ~/dlang/dmd-2.089.0/activate
 make
 sudo make install
 ```
